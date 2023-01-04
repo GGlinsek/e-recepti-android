@@ -26,6 +26,7 @@
                 android:value="" />
         </activity>
         <activity android:name=".LoginPage" />
+        <activity android:name=".RegistrationPage" />
     </application>
 
 </manifest>

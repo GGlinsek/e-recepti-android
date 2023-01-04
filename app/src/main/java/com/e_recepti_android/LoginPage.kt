@@ -1,5 +1,6 @@
 package com.e_recepti_android
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.EditText
 import android.widget.TextView
@@ -15,6 +16,8 @@ class LoginPage : AppCompatActivity() {
         val registracijaGumb = findViewById<TextView>(R.id.registracija)
 
         registracijaGumb.setOnClickListener {
+            val intent = Intent(this, RegistrationPage::class.java)
+            startActivity(intent)
 
         }
 
