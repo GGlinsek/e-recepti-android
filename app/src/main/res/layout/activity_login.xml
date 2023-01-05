@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
+        android:maxLines="1"
         android:minHeight="48dp"
         android:textColorLink="#099eb1"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -19,7 +20,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.259"
-        tools:ignore="SpeakableTextPresentCheck" />
+        tools:ignore="SpeakableTextPresentCheck"
+        android:autofillHints="emailAddress" />
 
     <EditText
         android:id="@+id/password"
@@ -27,6 +29,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPassword"
+        android:maxLines="1"
         android:minHeight="48dp"
         android:textColorLink="#099EB1"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -34,16 +37,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.364"
-        tools:ignore="SpeakableTextPresentCheck" />
+        tools:ignore="SpeakableTextPresentCheck"
+        android:autofillHints="password" />
 
     <TextView
         android:id="@+id/textregistracija"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="še nisi uporabnik?"
+        android:text="@string/no_account"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.337"
+        app:layout_constraintHorizontal_bias="0.371"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.431" />
@@ -52,11 +56,11 @@
         android:id="@+id/registracija"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Registriraj se"
+        android:text="@string/register"
         android:textColor="#03A9F4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.671"
+        app:layout_constraintHorizontal_bias="0.693"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.431" />
@@ -65,7 +69,7 @@
         android:id="@+id/tvEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Email:"
+        android:text="@string/email"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -78,11 +82,11 @@
         android:id="@+id/tvGeslo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Geslo:"
+        android:text="@string/password"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.27"
+        app:layout_constraintHorizontal_bias="0.292"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.323" />
@@ -91,8 +95,8 @@
         android:id="@+id/btnVpis"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Vpiši se"
         android:backgroundTint="#099eb1"
+        android:text="@string/sign_in"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.682"

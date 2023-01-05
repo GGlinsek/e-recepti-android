@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">e-recepti-android</string>
+    <string name="testing">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac purus quam. Nunc commodo velit ex, quis posuere neque consequat eget. Nam purus dui, egestas a sollicitudin sed, lobortis sed leo. Proin at eros ac massa aliquet commodo vel ut felis. Nullam maximus nulla leo, vitae pellentesque sapien consequat et. Sed pharetra dui at diam malesuada elementum. Maecenas sed est pulvinar, molestie ex id, posuere sem. Vivamus tincidunt orci et erat sodales, ac tempor augue mattis. Donec rhoncus congue sagittis. Cras pretium leo finibus tortor porta tempor.
+
+Ut suscipit sit amet eros nec bibendum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur posuere pulvinar mi. Integer ullamcorper orci in venenatis euismod. Curabitur arcu odio, convallis id placerat nec, tincidunt varius sapien. Sed vel turpis mauris. Aenean dignissim ipsum vitae tellus fermentum laoreet. Vestibulum ac erat eget nisi sodales sagittis a vel nisi. Vivamus convallis leo ac quam egestas condimentum. Vivamus at tellus eget mi volutpat laoreet.
+
+Duis at lectus dui. Nulla facilisi. Donec dolor massa, semper et risus vel, semper luctus tortor. Nam luctus molestie nunc et commodo. Donec orci felis, efficitur ac ipsum in, ultrices pulvinar nisi. Aliquam velit urna, luctus et imperdiet convallis, scelerisque vel purus. Donec rutrum, nulla sed varius viverra, magna ligula lobortis tortor, vitae interdum dolor nisi sed eros. Mauris non risus fermentum, pulvinar justo at, dapibus nunc.
+
+Mauris sodales imperdiet purus, id tristique sem eleifend in. Fusce ullamcorper ullamcorper lorem, eget malesuada lorem dictum ac. Cras vel gravida ante. Phasellus vitae commodo magna. Suspendisse tristique mi nec fermentum porta. Mauris dapibus ac augue eu feugiat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent risus orci, congue non aliquet nec, tempus nec nisi. Nullam orci dui, varius pretium venenatis ac, molestie ut sem. Nulla et arcu id quam aliquet tincidunt a eu erat. Nulla tristique vulputate massa, quis vestibulum quam mollis elementum. Donec a metus massa. Aliquam vitae erat suscipit, sagittis lorem quis, tristique elit. Mauris ultrices convallis lorem a euismod. Sed ut felis hendrerit, vehicula dolor quis, tristique nibh.
+
+Donec venenatis convallis fermentum. Cras sit amet quam sapien. Nulla feugiat convallis sapien at feugiat. Pellentesque metus elit, luctus sed pellentesque at, ultricies molestie urna. Phasellus fringilla urna vel enim auctor, et placerat diam viverra. Donec facilisis dui mauris. Etiam fermentum consequat fringilla. Phasellus vel efficitur massa. Nam euismod eu magna vitae varius. Etiam vel condimentum sapien. Maecenas id pharetra nibh, in viverra lectus. Morbi vitae cursus odio. Vivamus fringilla at diam congue elementum. Curabitur luctus dolor ut ex cursus, at feugiat dolor ultrices. Pellentesque hendrerit velit at dolor congue, vel luctus velit facilisis. Morbi congue vel odio at cursus.</string>
+    <string name="first_name">First Name:</string>
+    <string name="last_name">Last Name:</string>
+    <string name="email">Email:</string>
+    <string name="password">Password:</string>
+    <string name="confirm_password">Confirm Password:</string>
+    <string name="register">Register</string>
+    <string name="e_recepti">E-RECEPTI</string>
+    <string name="login">login</string>
+    <string name="i_i_recepte">Išči recepte</string>
+    <string name="search">Search</string>
+    <string name="sign_in">Sign In</string>
+    <string name="no_account">Don\'t have an account?</string>
 </resources>

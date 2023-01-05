@@ -15,7 +15,7 @@ class RegistrationPage : AppCompatActivity() {
         val mailUporabnika = findViewById<EditText>(R.id.etMail)
         val gesloUporabnika = findViewById<EditText>(R.id.etGeslo)
         val ponoviGeslo = findViewById<EditText>(R.id.etPonoviGeslo)
-        val registrationButton = findViewById<Button>(R.id.btnRegistracija)
+        val registrationButton = findViewById<Button>(R.id.btnRegister)
 
     }
 }

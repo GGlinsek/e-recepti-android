@@ -9,11 +9,11 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ime:"
+        android:text="@string/first_name"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.263"
+        app:layout_constraintHorizontal_bias="0.297"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.068" />
@@ -29,7 +29,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.099"
-        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/etGeslo"
@@ -43,7 +44,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.409"
-        tools:ignore="SpeakableTextPresentCheck" />
+        tools:ignore="SpeakableTextPresentCheck"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/etPonoviGeslo"
@@ -56,7 +58,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.514"
-        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/etMail"
@@ -70,7 +73,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.306"
-        tools:ignore="SpeakableTextPresentCheck" />
+        tools:ignore="SpeakableTextPresentCheck"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/etPriimek"
@@ -84,17 +88,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.202"
-        tools:ignore="SpeakableTextPresentCheck" />
+        tools:ignore="SpeakableTextPresentCheck"
+        android:importantForAutofill="no" />
 
     <TextView
         android:id="@+id/tvPriimek"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Priimek:"
+        android:text="@string/last_name"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.28"
+        app:layout_constraintHorizontal_bias="0.297"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.167" />
@@ -103,7 +108,7 @@
         android:id="@+id/tvMail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Email:"
+        android:text="@string/email"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -116,11 +121,11 @@
         android:id="@+id/tvGesloRegistracija"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Geslo:"
+        android:text="@string/password"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintHorizontal_bias="0.292"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.366" />
@@ -129,21 +134,21 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ponovi geslo:"
+        android:text="@string/confirm_password"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.308"
+        app:layout_constraintHorizontal_bias="0.345"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.469" />
 
     <Button
-        android:id="@+id/btnRegistracija"
+        android:id="@+id/btnRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Registriraj se"
         android:backgroundTint="#099eb1"
+        android:text="@string/register"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
