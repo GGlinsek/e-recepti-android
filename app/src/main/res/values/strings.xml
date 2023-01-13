@@ -21,4 +21,5 @@ Donec venenatis convallis fermentum. Cras sit amet quam sapien. Nulla feugiat co
     <string name="search">Search</string>
     <string name="sign_in">Sign In</string>
     <string name="no_account">Don\'t have an account?</string>
+    <string name="recepti">Recepti</string>
 </resources>
