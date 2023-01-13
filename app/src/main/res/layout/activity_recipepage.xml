@@ -20,16 +20,19 @@
         app:layout_constraintVertical_bias="0.025" />
 
     <ScrollView
-        android:id="@+id/scrollView3"
-        android:layout_width="411dp"
-        android:layout_height="464dp"
+        android:id="@+id/svRecipePage"
+        android:layout_width="385dp"
+        android:layout_height="565dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.384"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.644"
         tools:ignore="SpeakableTextPresentCheck">
 
         <LinearLayout
+            android:id="@+id/llinformation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -72,7 +75,8 @@
                         android:id="@+id/tvDescription"
                         android:layout_width="match_parent"
                         android:layout_height="150dp"
-                        android:text="TextView" />
+                        android:text="TextView"
+                        android:textAlignment="center" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -84,17 +88,48 @@
 
                 <TextView
                     android:id="@+id/tvCookingTime"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="46dp"
+                    android:layout_height="39dp"
                     android:layout_weight="1"
-                    android:text="TextView" />
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/tvFeeds"
-                    android:layout_width="230dp"
-                    android:layout_height="wrap_content"
-                    android:text="TextView" />
+                    android:layout_width="145dp"
+                    android:layout_height="match_parent"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvDifficulty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
             </LinearLayout>
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="77dp"
+                android:layout_height="wrap_content"
+                android:text="Sestavine:"
+                android:textAlignment="textStart"
+                android:textColor="#130A0A"
+                android:textStyle="bold" />
 
         </LinearLayout>
     </ScrollView>
