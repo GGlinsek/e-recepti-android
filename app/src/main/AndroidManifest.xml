@@ -16,7 +16,7 @@
         android:theme="@style/Theme.Ereceptiandroid"
         tools:targetApi="31">
         <activity
-            android:name=".RecepiesList"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,6 +30,9 @@
         </activity>
         <activity android:name=".LoginPage" />
         <activity android:name=".RegistrationPage" />
+        <activity android:name=".RecipesList" />
+        <activity android:name=".RecipePage" />
+
     </application>
 
 

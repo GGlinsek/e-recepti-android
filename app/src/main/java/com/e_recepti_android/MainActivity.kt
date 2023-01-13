@@ -3,9 +3,7 @@ package com.e_recepti_android
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
-import android.widget.EditText
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         searchButton.setOnClickListener {
-            val intent = Intent(this, RecepiesList::class.java)
+            val intent = Intent(this, RecipesList::class.java)
             startActivity(intent)
         }
 
